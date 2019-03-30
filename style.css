@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #262626;
+    --gray: #4d4d4d;
+    --white: #ffffff;
+}
+
+html, body {
+    color: var(--black);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
