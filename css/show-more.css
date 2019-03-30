@@ -1,0 +1,17 @@
+.call-to-action__show-more {
+    text-align: center;
+    padding: 4rem 0;
+}
+.call-to-action__show-more .button.gray {
+    color: var(--gray);
+    border: 4px solid var(--gray);
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 42px;
+    padding: 1rem 7rem;
+}
+
+.call-to-action__show-more .button.gray:hover {
+    background: var(--gray);
+    color: var(--white, white);
+}
