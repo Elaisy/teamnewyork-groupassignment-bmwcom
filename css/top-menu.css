@@ -1,8 +1,16 @@
 .top-menu {
     background: var(--black);
     color: red;
+    
 }
-.top-navigation{
+.menu-list{
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     align-content: center;
+    background: 10px solid goldenrod;
+    align-content: space-between;
+}
+.small-logo-text{
+    font-size: 10px;
+    font-style: bold;
+  }

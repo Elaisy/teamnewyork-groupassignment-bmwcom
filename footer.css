@@ -1,0 +1,7 @@
+.footer{
+    border: 5px solid;
+    border-color: white;
+    background-color: green;
+    display: flex;
+    font-size: 20px;
+   }
