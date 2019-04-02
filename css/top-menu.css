@@ -2,3 +2,7 @@
     background: var(--black);
     color: red;
 }
+.top-navigation{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
