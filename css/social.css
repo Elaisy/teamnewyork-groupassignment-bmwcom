@@ -13,13 +13,48 @@
 
 .post {
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-    min-width: 20rem;
+    min-width: 25rem;
     min-height: 30rem;
     display: grid;
     grid-template-rows: 5rem 20rem 5rem 5rem 10rem;
 }
 
+
+.profiel {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+
+.profiel a {
+    
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    
+}
+
+
 .plaatje {
     background-image: url(https://source.unsplash.com/random/200x200);
     background-size: 100%;
+}
+
+.instagram a {
+    color: blue;
+   
+    text-decoration: none;
+}
+
+.opmerking {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.opmerking textarea {
+    height: 5rem;
+    border: 0px;
 }
