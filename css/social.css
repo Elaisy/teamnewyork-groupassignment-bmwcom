@@ -1,0 +1,25 @@
+.socials{
+    display: grid;
+    justify-items: center;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.post {
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    min-width: 20rem;
+    min-height: 30rem;
+    display: grid;
+    grid-template-rows: 5rem 20rem 5rem 5rem 10rem;
+}
+
+.plaatje {
+    background-image: url(https://source.unsplash.com/random/200x200);
+    background-size: 100%;
+}
