@@ -5,9 +5,35 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.wrapper-text {
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+}
+
+
+.wrapper-text h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
 
 .wrapper-text h2 {
-    text-emphasis: bold;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.wrapper-text a {
+    border: 0.2rem solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+
+.wrapper-text a:hover {
+    background-color: white;
+    color: black;
+    
 }
 
 .video-container {
