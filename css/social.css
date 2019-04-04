@@ -1,7 +1,30 @@
 .socials{
+    background-color: #f8f8f8;
     display: grid;
     justify-items: center;
+    margin-bottom: 5rem;
+    
 
+}
+
+.header-social {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    
+}
+
+.header-social h1 {
+    font-size: 5rem;
+    text-emphasis: bold;
+}
+
+.header-social h2 {
+    color: var(--black);
+    margin-top: -3rem;
+    font-weight: normal;
+    
 }
 
 .wrapper {
@@ -39,14 +62,55 @@
 
 
 .plaatje {
-    background-image: url(https://source.unsplash.com/random/200x200);
+    background-image: url(https://loremflickr.com/320/240/bmw,car/all);
     background-size: 100%;
 }
 
+.post-2 .plaatje {
+    background-image: url(https://loremflickr.com/322/240/bmw,car/all);
+
+}
+
+.post-3 .plaatje {
+    background-image: url(https://loremflickr.com/321/240/bmw,car/all);
+
+
+}
+
+.post-4 .plaatje {
+    background-image: url(https://loremflickr.com/321/242/bmw,car/all);
+
+}
+
+.post-5 .plaatje {
+    background-image: url(https://loremflickr.com/320/241/bmw,car/all);
+}
+
+.post-6 .plaatje {
+    background-image: url(https://loremflickr.com/322/242/bmw,car/all);
+
+}
+
+.post-7 .plaatje {
+    background-image: url(https://loremflickr.com/321/241/bmw,car/all);
+}
+
+.post-8 .plaatje {
+    background-image: url(https://loremflickr.com/320/242/bmw,car/all);
+}
+
+.post-9 .plaatje {
+    background-image: url(https://loremflickr.com/321/242/bmw,car/all);
+}
 .instagram a {
     color: blue;
    
     text-decoration: none;
+}
+
+.fa-instagram {
+    justify-self: center;
+    
 }
 
 .opmerking {
