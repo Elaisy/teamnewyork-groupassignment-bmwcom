@@ -5,7 +5,7 @@
 :root {
     --black: #262626;
     --gray: #4d4d4d;
-    --white: #ffffff;
+    --white: hsl(0, 0%, 100%);
 }
 
 html, body {
@@ -13,4 +13,11 @@ html, body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
     margin: 0;
+}
+.hero {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        overflow: hidden;
+    }
 }
