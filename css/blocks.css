@@ -1,9 +1,13 @@
 .block {
-    padding: .25rem;
+    padding: .025rem;
     text-align: left;
     cursor: pointer;
     position: relative;
   }
+
+.block:hover {
+  /* transform: scale(1.1) */
+}
 
  .big-block {
     grid-row: span 2;
@@ -20,14 +24,14 @@
 
   .blocks-container {
     display: grid;
-    border: 3px solid yellowgreen;
+    /* border: 3px solid yellowgreen; */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6) auto;
     grid-gap: .125rem;
   }
   
   .blocks-container > * {
-    background: purple;
+    /* background: purple; */
     color: white;
   }
 
@@ -66,14 +70,29 @@
     height: 100%;
 }
   
+/* image wrapper*/
+
+.imageWrapper {
+  position: relative;
+  padding-bottom: 56.25%;  /*16:9 Aspect Ratio */
+  height: 0;
+  width: 100%; /* You can set this width to whatever suits your needs */
+  margin: 0 auto;
+}
+
+.imageWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
   @media screen and (max-width:420px) {
 
     .blocks-container {
         display: grid;
-        border: 3px solid yellowgreen;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: .125rem;
       }
 
 }
