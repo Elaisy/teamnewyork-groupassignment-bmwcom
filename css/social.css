@@ -27,12 +27,41 @@
     
 }
 
+
+@media screen and (max-width:420px) {
+
+    .header-social {
+        justify-self: start;
+        border: 2px solid green;
+        display: grid;
+        justify-items: start;
+    }
+
+    .header-social h1 {
+        font-size: 1.8rem;
+    }
+
+    .header-social h2 {
+        font-size: 1rem;
+        margin-top: 0rem;
+        justify-self: center;
+    }
+}
+
 .wrapper {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 1fr 1fr 1fr;
     
 }
+
+@media screen and (max-width:420px) {
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .post {
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -122,3 +151,5 @@
     height: 5rem;
     border: 0px;
 }
+
+
