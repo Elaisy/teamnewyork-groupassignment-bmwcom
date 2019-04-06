@@ -1,0 +1,40 @@
+.cta {
+    background: #f8f8f8;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    width: 100%;
+}
+
+.subcta {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.3px;
+    margin: 0;
+}
+
+.titlecta {
+    text-transform: uppercase;
+    font-size: 5.85vw;
+    letter-spacing: -0.25vw;
+    line-height: 5.85vw;
+    margin: 0;
+}
+
+.linkcta {
+    color: inherit;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+}
+
+.icon {
+    animation-play-state: paused;
+}
+
+.icon:hover {
+    animation-play-state: running;
+}

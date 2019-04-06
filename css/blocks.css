@@ -1,0 +1,99 @@
+.block {
+    padding: .025rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+  }
+
+.block:hover {
+  /* transform: scale(1.1) */
+}
+
+ .big-block {
+    grid-row: span 2;
+    grid-column: span 2;
+ } 
+  
+.text-block {
+    z-index: 99;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 20px;
+}
+
+  .blocks-container {
+    display: grid;
+    /* border: 3px solid yellowgreen; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6) auto;
+    grid-gap: .125rem;
+  }
+  
+  .blocks-container > * {
+    /* background: purple; */
+    color: white;
+  }
+
+  .gray {
+    color: #262626;
+  }
+
+  .header {
+      font-size: 15px;
+      line-height: 22px;
+      letter-spacing: -0.9;
+      margin: 0;
+  }
+
+  .subline {
+      font-size: 12px;
+      line-height: 18px;
+      margin: 0;
+  }
+
+  /*video*/
+
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    width: 100%; /* You can set this width to whatever suits your needs */
+    margin: 0 auto;
+}
+
+.videoWrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+/* image wrapper*/
+
+.imageWrapper {
+  position: relative;
+  padding-bottom: 56.25%;  /*16:9 Aspect Ratio */
+  height: 0;
+  width: 100%; /* You can set this width to whatever suits your needs */
+  margin: 0 auto;
+}
+
+.imageWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+  @media screen and (max-width:420px) {
+
+    .blocks-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+}
+ 
