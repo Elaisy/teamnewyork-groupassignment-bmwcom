@@ -5,6 +5,12 @@
     grid-template-columns: 1fr 1fr;
 }
 
+@media screen and (max-width:420px) {
+    .highlights {
+        grid-template-columns: 1fr;
+    }
+}
+
 .wrapper-text {
     padding-bottom: 3rem;
     padding-left: 2rem;
