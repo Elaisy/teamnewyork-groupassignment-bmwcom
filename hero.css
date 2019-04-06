@@ -1,0 +1,6 @@
+.hero {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+}
